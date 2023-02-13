@@ -1,5 +1,5 @@
-const test = require("../src/index");
+const Ship = require("../src/Ship");
 
-it("Check its working at all", () => {
-  expect(test(2)).toBe("Test Success2");
+it("Creates Ship Object", () => {
+  expect(Ship(5, 0, false)).toEqual({ hits: 0, length: 5, sunk: false });
 });
