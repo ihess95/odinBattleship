@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{var r={579:r=>{r.exports=function(r){return"Test Success"+r}}},t={};!function e(o){var s=t[o];if(void 0!==s)return s.exports;var n=t[o]={exports:{}};return r[o](n,n.exports,e),n.exports}(579)})();
