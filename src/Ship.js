@@ -1,5 +1,5 @@
 let id = 0;
-function Ship(l, hits, coord) {
+function Ship(l, hits) {
   id++;
   let sunk;
   (function isSunk() {
@@ -15,9 +15,6 @@ function Ship(l, hits, coord) {
     length: l,
     hits: hits,
     sunk: sunk,
-    hit() {
-      return hits++;
-    },
   };
 }
 

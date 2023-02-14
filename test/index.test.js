@@ -28,8 +28,8 @@ it("Tests isSunk function", () => {
     ])
   ).toEqual({ hits: 5, id: 3, length: 5, sunk: true });
 });
-// it("tests hit function", () => {
-//   Ship(1, 0, [[1, 2]]);
-//   Ship.hit();
-//   expect(Ship.toEqual({ hits: 1, id: 4, length: 1, sunk: true }));
-// });
+it("tests hit function", () => {
+  let ship1 = Ship(1, 0, [[1, 2]]);
+  ship1.hit();
+  expect(Ship1.toEqual({ hits: 1, id: 4, length: 1, sunk: true }));
+});
