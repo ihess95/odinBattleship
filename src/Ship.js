@@ -15,6 +15,9 @@ function Ship(l, hits) {
     length: l,
     hits: hits,
     sunk: sunk,
+    // hit: function hit() {
+    // this.hits++;
+    // },
   };
 }
 
